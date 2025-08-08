@@ -1,1 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stitching 101 – Learn the Art of Hand Stitching</title>
+    <meta name="description" content="A friendly, visual guide to stitching: tools, basic techniques, types of stitches, tips, and resources for beginners and hobbyists." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Stitching 101 home">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="brand-mark" aria-hidden="true">
+            <path d="M8 32c0-8 6-16 16-16s16 8 16 16-6 16-16 16S8 40 8 32z" fill="none" stroke="currentColor" stroke-width="4"/>
+            <path d="M24 12l16 40" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="24" cy="32" r="4" fill="currentColor"/>
+          </svg>
+          <span>Stitching 101</span>
+        </a>
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#techniques">Techniques</a></li>
+            <li><a href="#stitches">Stitches</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1><span class="accent">Hand Stitching</span> made simple</h1>
+            <p>Discover the craft of stitching—from the tools you need to timeless techniques. Follow step‑by‑step guidance and start creating beautiful, durable seams today.</p>
+            <div class="hero-cta">
+              <a href="#techniques" class="btn btn-primary">Start Learning</a>
+              <a href="#stitches" class="btn btn-ghost">Browse Stitches</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a needle threading through fabric" class="needle-illustration">
+              <defs>
+                <linearGradient id="g" x1="0" x2="1">
+                  <stop offset="0%" stop-color="#00b4d8"/>
+                  <stop offset="100%" stop-color="#90e0ef"/>
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="400" height="300" rx="16" fill="#f8fafc"/>
+              <path d="M20 220 Q 100 200 180 220 T 340 220" fill="none" stroke="#e2e8f0" stroke-width="28" stroke-linecap="round"/>
+              <path d="M20 220 Q 100 200 180 220 T 340 220" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 10"/>
+              <path d="M260 75 L370 120" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+              <circle cx="372" cy="121" r="8" fill="#334155"/>
+              <path d="M240 110 Q 300 140 340 120" fill="none" stroke="url(#g)" stroke-width="4"/>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>What is stitching?</h2>
+            <p>Stitching is the method of joining fabrics or materials using needle and thread. From repairing seams to decorative embroidery, hand stitching is versatile, portable, and deeply satisfying.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="card">
+              <h3>Why stitch by hand?</h3>
+              <ul>
+                <li>Precision and control for delicate work</li>
+                <li>Portable—no machine required</li>
+                <li>Mindful, relaxing craft</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Where it’s used</h3>
+              <ul>
+                <li>Clothing repairs and alterations</li>
+                <li>Quilting, embroidery, and crafts</li>
+                <li>Leatherwork and bookbinding</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Key skills</h3>
+              <ul>
+                <li>Threading and knotting</li>
+                <li>Even spacing and tension</li>
+                <li>Knowing the right stitch for the job</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tools" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2>Tools and materials</h2>
+            <p>Start with a simple kit. Upgrade as your projects grow.</p>
+          </div>
+          <div class="tools-grid">
+            <div class="tool">
+              <div class="icon">🪡</div>
+              <div>
+                <h4>Needles</h4>
+                <p>Sharps for general use, chenille for embroidery, leather needles for heavy materials.</p>
+              </div>
+            </div>
+            <div class="tool">
+              <div class="icon">🧵</div>
+              <div>
+                <h4>Thread</h4>
+                <p>Polyester or cotton for fabric, waxed thread for leather. Match weight to material.</p>
+              </div>
+            </div>
+            <div class="tool">
+              <div class="icon">✂️</div>
+              <div>
+                <h4>Scissors</h4>
+                <p>Fabric shears and small snips keep cuts clean and precise.</p>
+              </div>
+            </div>
+            <div class="tool">
+              <div class="icon">📏</div>
+              <div>
+                <h4>Measuring</h4>
+                <p>Tape, ruler, and chalk or erasable marker for marking lines and spacing.</p>
+              </div>
+            </div>
+            <div class="tool">
+              <div class="icon">🧽</div>
+              <div>
+                <h4>Thimble</h4>
+                <p>Protects your finger and improves pushing power through tough fabrics.</p>
+              </div>
+            </div>
+            <div class="tool">
+              <div class="icon">🕯️</div>
+              <div>
+                <h4>Wax</h4>
+                <p>Lightly waxing thread reduces tangles and strengthens stitches.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="techniques" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Basic techniques</h2>
+            <p>Follow these steps to set yourself up for clean, durable seams.</p>
+          </div>
+          <ol class="steps">
+            <li>
+              <h4>Thread the needle</h4>
+              <p>Cut thread at an angle. Wet the tip if needed. Insert through the eye and pull 30–45 cm.</p>
+            </li>
+            <li>
+              <h4>Knot the end</h4>
+              <p>Use a simple overhand knot or quilter’s knot to secure the thread.</p>
+            </li>
+            <li>
+              <h4>Mark your seam</h4>
+              <p>Lightly mark the seam line and spacing with chalk. Use a ruler or spacing wheel.</p>
+            </li>
+            <li>
+              <h4>Maintain tension</h4>
+              <p>Keep stitches even—snug but not puckering. Relax shoulders and hands.</p>
+            </li>
+            <li>
+              <h4>Finish and secure</h4>
+              <p>Backstitch at the end or tie a small knot and bury the tail between layers.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="stitches" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2>Common stitches</h2>
+            <p>Each stitch has a purpose. Learn when and why to use them.</p>
+          </div>
+          <div class="stitch-cards">
+            <article class="stitch-card">
+              <h3>Running stitch</h3>
+              <p>Simple in‑out motion for basting and light seams.</p>
+              <div class="stitch-demo running" aria-hidden="true"></div>
+            </article>
+            <article class="stitch-card">
+              <h3>Backstitch</h3>
+              <p>Strong, machine‑like seam for durable joins and repairs.</p>
+              <div class="stitch-demo backstitch" aria-hidden="true"></div>
+            </article>
+            <article class="stitch-card">
+              <h3>Blanket/whip stitch</h3>
+              <p>Secures raw edges on blankets, felt, and leather.</p>
+              <div class="stitch-demo blanket" aria-hidden="true"></div>
+            </article>
+            <article class="stitch-card">
+              <h3>Slip/ladder stitch</h3>
+              <p>Invisible seam for closing openings by hand.</p>
+              <div class="stitch-demo ladder" aria-hidden="true"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Project gallery</h2>
+            <p>Get inspired by simple projects ideal for practice.</p>
+          </div>
+          <div class="gallery-grid">
+            <figure class="tile">
+              <div class="ph"></div>
+              <figcaption>Felt coaster set – blanket stitch</figcaption>
+            </figure>
+            <figure class="tile">
+              <div class="ph"></div>
+              <figcaption>Denim patch repair – backstitch</figcaption>
+            </figure>
+            <figure class="tile">
+              <div class="ph"></div>
+              <figcaption>Simple pouch – running + slip stitch</figcaption>
+            </figure>
+            <figure class="tile">
+              <div class="ph"></div>
+              <figcaption>Leather key fob – saddle stitch</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2>FAQ</h2>
+            <p>Quick answers for common beginner questions.</p>
+          </div>
+          <div class="accordion" data-accordion>
+            <details>
+              <summary>How do I keep my stitches even?</summary>
+              <p>Mark guide lines, use a thimble for consistent pushing, and check spacing every few stitches.</p>
+            </details>
+            <details>
+              <summary>Why does my thread tangle?</summary>
+              <p>Use shorter lengths (no more than forearm), condition with wax, and let the needle dangle to remove twist.</p>
+            </details>
+            <details>
+              <summary>Which thread should I buy first?</summary>
+              <p>Start with all‑purpose polyester or cotton in neutral colors; add heavier waxed thread for leather later.</p>
+            </details>
+          </div>
+
+          <form id="signup" class="signup" novalidate>
+            <h3>Get a printable stitch guide</h3>
+            <div class="fields">
+              <label>
+                <span class="label-text">Name</span>
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+              <label>
+                <span class="label-text">Email</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+              <button type="submit" class="btn btn-primary">Send me the guide</button>
+            </div>
+            <p class="form-note" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Stitching 101 • Made for learners and hobbyists</p>
+        <a href="#home" class="back-to-top" aria-label="Back to top">↑</a>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
